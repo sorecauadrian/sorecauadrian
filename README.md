@@ -10,21 +10,20 @@ class About extends Me
         return [
             'workplace' => [
                 'company' => 'aiconomy AG',
-                'position' => 'Intern'         
+                'position' => 'Full Stack Developer'         
             ]
         ];
     }
 
-    public function getProgrammingKnowledge(): array
+    public function getWorkspaceTechnologies(): array
     {
         return [
-            Php::class,
+            PHP::class,
+            Laravel::class,
+            FilamentPHP::class,
+            AlpineJS::class,
             Javascript::class,
-            C++::class,
-            Python::class,
-            ReactJS::class,
-            NodeJS::class,
-            ExpressJS::class
+            VueJS::class
         ];
     }
 }
